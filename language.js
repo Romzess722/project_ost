@@ -44,13 +44,6 @@ function changeLanguage(){
   const name = document.querySelector('.lng_name').textContent = langArr['name'][getHash]
   const login = document.querySelector('.lng_login').textContent = langArr['login'][getHash]
 
-  // for(let key in langArr){
-  //   const elements = document.querySelectorAll('.lng'+key)
-  //   elements.forEach((element) => console.log(element.textContent = langArr[key][getHash]))
-  //   console.log(elements)
-  // }
-  
-
 }
 
 changeLanguage()
