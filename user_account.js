@@ -130,30 +130,3 @@ function updateTable(userData) {
   
 }
 
-
-// function updateTable(userData){
-//   const newRow = document.createElement("tr");
-//   console.log(userData);
-
-//     const dataCell = document.createElement("td");
-//     dataCell.textContent = userData.createDate;
-//     newRow.appendChild(dataCell);
-
-//     const numId = document.createElement("td");
-//     numId.textContent = userData.numId;
-//     newRow.appendChild(numId);
-
-//     const hour = document.createElement("td");
-//     hour.textContent = userData.selectedHour;
-//     newRow.appendChild(hour);
-
-//     const userName = document.createElement("td");
-//     userName.textContent = userData.name;
-//     newRow.appendChild(userName);
-
-//     const userLogin = document.createElement("td");
-//     userLogin.textContent = userData.login;
-//     newRow.appendChild(userLogin);
-
-//     tableBody.appendChild(newRow);
-// }
