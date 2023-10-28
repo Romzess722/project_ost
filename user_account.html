@@ -1,91 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
   <title>Кабінет користувача</title>
 </head>
+
 <body>
-  
+
   <main class="main">
     <div class="user">
       <section class="section_1">
-          <div class="options">
-            <div class="option-work">
-              <button class="button-option-work">Option work</button>
-              <ul class="list-option">
-                <li class="list-options"><a href="" class="list-link">Generete list</a></li>
-                <li class="list-options"><a href="" class="list-link">List exel</a></li>
-                <li class="list-options"><a href="" class="list-link">In this month</a></li>
-              </ul>
-            </div>
-
-            <div class="select">
-              <button class="select-option">Select option</button>
-              <ul id="ul" class="list-select">
-                <li class="list-selects">
-                  <button class="buttons" >2</button></li>
-                <li class="list-selects">
-                  <button class="buttons">4</button>
-                </li>
-                <li class="list-selects">
-                  <button class="buttons">8</button>
-                </li>
-                <li class="list-selects">
-                  <button class="buttons">0</button>
-                </li>
-              </ul>
-            </div>
-            
+        <div class="options">
+          <div class="option-work">
+            <button class="button-option-work">Option work</button>
+            <ul class="list-option">
+              <li class="list-options"><a href="" class="list-link">Generete list</a></li>
+              <li class="list-options"><a href="" class="list-link">List exel</a></li>
+              <li class="list-options"><a href="" class="list-link">In this month</a></li>
+            </ul>
           </div>
+
+          <div class="select">
+            <button class="select-option">Select option</button>
+            <ul id="ul" class="list-select">
+              <li class="list-selects">
+                <button class="buttons">2</button>
+              </li>
+              <li class="list-selects">
+                <button class="buttons">4</button>
+              </li>
+              <li class="list-selects">
+                <button class="buttons">8</button>
+              </li>
+              <li class="list-selects">
+                <button class="buttons">0</button>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </section>
-  
+
       <section class="section_2">
         <div class="header-section_2">
           <div class="info-user"><span></span></div>
           <div>
             <ul class="list_theme">
-              <li><a class="themetoggle" href="#" >
-                <span class="material-symbols-outlined">
-                  clear_day
+              <li><a class="themetoggle" href="#">
+                  <span class="material-symbols-outlined">
+                    clear_day
                   </span>
-              </a>
-            </li>
+                </a>
+              </li>
             </ul>
           </div>
 
           <div class="language">
             <ul class="selected_language">
               <li class="language_ukr" title="Ukrainian">
-                <a href="#" value = "ukr" >
+                <a href="#" value="ukr">
                   <img src="images/Flag-Ukraine.webp" width="35px" height="25px" alt="">
                 </a>
               </li>
               <li class="language_brt" title="British">
-                <a href="#" value = "brt">
+                <a href="#" value="brt">
                   <img src="images/Flagbig.gif" width="35px" height="25px" alt="">
                 </a>
               </li>
               <li class="language_pl" title="Polish">
-                <a href="#" value = "pl" >
+                <a href="#" value="pl">
                   <img src="images/Flag_of_Poland.svg.webp" width="35px" height="25px" alt="">
                 </a>
               </li>
             </ul>
-            
+
           </div>
 
           <div class="out">
             <button class="button_out">
-              <a href="#">Вийти</a>
+              <a href="/">Вийти</a>
             </button>
           </div>
         </div>
-        
+
         <div id="tableContainer">
           <table id="table">
             <thead>
@@ -102,17 +110,18 @@
               <!-- Динамічні рядки таблиці -->
             </tbody>
           </table>
-        </div> 
+        </div>
       </section>
     </div>
   </main>
 
   </div>
-  <script  src="./reserver_usr_acc.js" ></script>
-  <script  src="./sourse/theme.js" ></script>
-  <script  src="./sourse/arrLang.js" ></script>
-  <script  src="./language.js" ></script>
+  <script src="./reserver_usr_acc.js"></script>
+  <script src="./sourse/theme.js"></script>
+  <script src="./sourse/arrLang.js"></script>
+  <script src="./language.js"></script>
 
-  
+
 </body>
+
 </html>
