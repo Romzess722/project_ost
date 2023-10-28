@@ -95,7 +95,8 @@ buttonOut.addEventListener('click', (event) => {
   //при виході з свого кабінету удаляє тему
   localStorage.removeItem('theme')
   
-  window.location.href ='/'
+  window.location.href ='https://romzess722.github.io/project_ost/
+'
 })
 
 function updateTable(userProfile){
